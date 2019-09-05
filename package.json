@@ -4,11 +4,9 @@
     "ss": "semantic-release"
   },
   "devDependencies": {
-    "github-release-notes": "^0.17.0",
-    "semantic-release": "^15.13.24"
+    "github-release-notes": "^0.17.0"
   },
   "dependencies": {
-    "saika": "^2.8.1",
-    "standard-version": "^7.0.0"
+    "saika": "^2.8.1"
   }
 }
