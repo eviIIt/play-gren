@@ -19,8 +19,8 @@ jobs:
           paths:
             - ./node_modules
       - run:
-          name: stdver
-          command: yarn stdver
+          name: ss
+          command: npx semantic-release
       - run:
           name: gren release
           command: yarn release

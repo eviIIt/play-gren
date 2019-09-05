@@ -1,6 +1,5 @@
 {
   "scripts": {
-    "stdver": "standard-version -m 'chore(release)'",
     "release": "gren release --override"
   },
   "devDependencies": {
