@@ -1,5 +1,6 @@
 {
   "scripts": {
+    "test": "echo lol",
     "release": "gren release --override",
     "ss": "semantic-release"
   },
