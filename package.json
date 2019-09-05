@@ -1,11 +1,13 @@
 {
   "scripts": {
+    "stdver": "standard-version -m 'chore(release): v%s'",
     "release": "gren release --override"
   },
   "devDependencies": {
     "github-release-notes": "^0.17.0"
   },
   "dependencies": {
-    "saika": "^2.8.1"
+    "saika": "^2.8.1",
+    "standard-version": "^7.0.0"
   }
 }
