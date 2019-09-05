@@ -22,5 +22,5 @@ jobs:
           name: ss
           command: yarn ss
       - run:
-          name: gren release
+          name: gren
           command: yarn release
