@@ -1,9 +1,11 @@
 {
   "scripts": {
-    "release": "gren release --override"
+    "release": "gren release --override",
+    "ss": "semantic-release"
   },
   "devDependencies": {
-    "github-release-notes": "^0.17.0"
+    "github-release-notes": "^0.17.0",
+    "semantic-release": "^15.13.24"
   },
   "dependencies": {
     "saika": "^2.8.1",
