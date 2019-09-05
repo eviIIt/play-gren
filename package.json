@@ -4,5 +4,8 @@
   },
   "devDependencies": {
     "github-release-notes": "^0.17.0"
+  },
+  "dependencies": {
+    "saika": "^2.8.1"
   }
 }
