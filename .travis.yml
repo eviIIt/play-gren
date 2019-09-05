@@ -8,13 +8,8 @@ git:
   depth: 3
 install:
 - yarn --frozen-lockfile
-script:
-  - yarn test
-  - yarn build:release
 after_success:
   - yarn release
-after_script:
-  - ./notify.sh
 cache: yarn
 deploy:
   - provider: script
